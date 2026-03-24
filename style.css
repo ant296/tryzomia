@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    background: #f0f0f0;
+}
+
+#canvas {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: #fff;
+}
+
+.element {
+    position: absolute;
+    border: 1px dashed #aaa;
+    padding: 5px;
+    cursor: move;
+    background: #fff;
+}
+
+.element img {
+    max-width: none;
+    display: block;
+}
+
+.controls {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: rgba(255,255,255,0.9);
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+}
